@@ -5,7 +5,7 @@
 
 # Step 2: Set the working directory to /app
 
-# Step 3: Copy in all the files from the current directory
+# Step 3: Copy in all the files needed to install dependencies
 
 # Step 4: Install dependencies using npm
 #   To keep the image small, (force) clean the npm cache after
