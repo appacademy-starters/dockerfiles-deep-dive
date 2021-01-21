@@ -227,7 +227,8 @@ renders.
 
 To begin, create a `.dockerignore` file and fill it with what you'll want to 
 ignore in your build image (for example, __node_modules__, **Docker** and 
-**git** files, any distribution or build folders). You can use the existing `.dockerignore` file from the previous phase as a reference if you get stuck.
+**git** files, any distribution or build folders). You can use the existing 
+`.dockerignore` file from the previous phase as a reference if you get stuck.
 
 Next, open the `Dockerfile` and begin to fill in each instruction. Notes have 
 been provided by the previous application developer for each of the steps.
