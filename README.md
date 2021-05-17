@@ -47,6 +47,14 @@ yourself when you make mistakes (we all do!). You will be provided with starter
 files including a working application for each phase. This will allow you to 
 focus on the Dockerfile in each phase of this project.
 
+The instructions for each phase are split between the information in this
+README and the individual Dockerfiles where you will be writing code. These 
+Dockerfiles have comments to guide you through the phase—each comment that
+begins with "Step" will have a command associated with it. The ones that do 
+not begin with "Step" are just providing information. Each of these "Step"s 
+are designed to be written with a single command.
+
+
 ### Help and hints
 
 If you are need help with Dockerfile commands the Dockerfile
@@ -184,7 +192,7 @@ that image with the proper port. Remember to name your container, and, if you'd
 like, you can run in detached mode.
 
 ```bash 
-docker container run -p 8080:80 --name deep1 -d abc/deep-dive-phase-1
+docker container run -p 8081:8081 --name deep2 -d abc/deep-dive-phase-2
 ```
 
 In your browser, go to [http://localhost:8081][local-express-url]. If 
@@ -219,7 +227,8 @@ renders.
 
 To begin, create a `.dockerignore` file and fill it with what you'll want to 
 ignore in your build image (for example, __node_modules__, **Docker** and 
-**git** files, any distribution or build folders).
+**git** files, any distribution or build folders). You can use the existing 
+`.dockerignore` file from the previous phase as a reference if you get stuck.
 
 Next, open the `Dockerfile` and begin to fill in each instruction. Notes have 
 been provided by the previous application developer for each of the steps.
