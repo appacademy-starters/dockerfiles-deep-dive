@@ -13,7 +13,10 @@
 
 # Step 5: Copy in all the files from the current directory
 
-# Step 6: Build application
+# Step 6: Build application 
+#   See the create-react-app documentation for more information on
+#   how to create a production build of your react app.
+#   (https://create-react-app.dev/docs/production-build)
 
 # Step 7: Bring in the base image for NGINX (alpine)
 
